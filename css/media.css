@@ -1,0 +1,598 @@
+@charset "utf-8";
+/* CSS Document */
+input[type="submit"], input[type="button"], input[type="text"], input[type="password"], input[type="email"], textarea, select { -webkit-appearance: none; border-radius:0px; -webkit-border-radius:0px;
+ -moz-border-radius:0px; -o-border-radius:0px; }
+a[href^=tel] { text-decoration:inherit;color: inherit; }
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1920px){
+body{ overflow-x:hidden;}
+
+
+/********************************/
+.main-banner.hm-land .main-img { background-position: 50% 80%; }
+
+}
+@media only screen and (max-width: 1280px) {
+body{ overflow-x:hidden;}
+/*.main-img {background-size: 116vw,190vw; background-position: right -2vw bottom calc(50vh - 34vw + 1vw),right -51.5vw bottom calc(50vh - 30vw + -67.28125vw); }*/
+
+
+.social-div { bottom:45px; }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+img {max-width:100%;}
+/*.row { width:1000px;}*/
+
+.select-cars-parts ul li { margin-right:5px;}
+.nav-section .slider-nav .slick-slide a { padding:15px 0px 15px; }
+.nav-main-menu { width:180px; }
+.nav-section .slider-nav { padding-left:190px; }
+.social-div { bottom:45px;}
+.socialIcons li:hover a { padding-right:40px;}
+
+/********************************/
+.main-banner.hm-land .main-img { background-position: 50% 105%;}
+.hm-cnt { width: 420px; }
+.hm-cnt h1 { font-size: 34px; }
+
+
+/********************inner pages css ***********************/
+.row { padding:0 40px;}
+.top-cont-lft.top-cont-lft1.charge-op h2, .top-cont-lft.m-t-20 h2, .top-cont-lft.top-cont-lft2.charge-op h3, .top-cont.top-cont-sustain.sus-mob h2, .top-cont-lft.st-band h2, .top-cont-lft.des-ph h2, .top-cont-lft.top-cont-lft1.sus-mode h2, .top-cont-lft.int-recup h2 { margin-bottom:15px; }
+.eques-content-sec { flex: 4; padding:0px 40px 0;  }
+.section-body { padding: 0 40px; }
+.full-content.stats-cont { bottom:5px; }
+.content-area.eq-stats .top-cont-lft { width:35%;}
+.content-area.eq-stats .top-cont-lft p br { display:none;}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+.view-port-controls__section.controls-desk-audio { display: none; }  
+.view-port-controls__section.controls-mob-audio { display: block; }
+
+.foot-lft { width: 100%;}
+.foot-rgt { width: 100%; margin-bottom: 5px;}
+
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media screen and (min-width:768px) and (max-width:1023px) {
+img {max-width:100%; }
+/*.row{ width:750px;}*/
+/* #page { display:none;}
+.mob-page { display:block;} */
+
+.head-space {flex: 0 0 0vw;}
+.main-banner{ position: relative; flex: 1;pointer-events: all; display: flex;flex-direction: column;height: auto;min-height: 0; overflow: hidden; }
+.main-img { position: absolute; top:0px; left: 0px; /*height: 79.25vw !important;*/}
+/* .main-img img { opacity: 1; display: block;} */
+
+.nav-section .slider-nav{ width: 100%;}
+.parts-select {padding: 20px 15px 0; display: none;}
+.section-body { padding: 0px 15px;}
+.slider-section{ margin-bottom: 10px;}
+footer .row {padding: 0px 15px;}
+.slide-foot{ height: 15px;}
+
+.select-cars-parts {padding: 0px 0px 0;}
+.exterior-parts{ display: none;}
+.slider-for {height: 100%;position: relative !important;bottom: auto;}
+.car-parts-mb{ display: block;}
+
+/**/
+.logo img { width:35px; }
+.eq-logo { width:92px; padding-top: 3px;}
+.top-rgt { margin:8px 0 0; } 
+.top-rgt ul li { margin-right:12px; }
+.top-rgt ul li .tooltip { display:none; }
+.top-rgt ul li a span { width:19px;}
+.main-banner { background-size: 10%; }
+.main-img { background-size: 112vw,190vw; transform: translate3d(0px, 0px, 0px) scale(1); background-position: center !important; /*background-position: right -25vw bottom calc(50vh - 10vw + 1vw),right -51.5vw bottom calc(50vh - 30vw + -67.28125vw) !important;*/}
+
+.side-menu{ display: none;}
+.select-cars-parts .option-sublist-mb ul li { width: auto;margin-right: 15px;}
+.select-cars-parts .option-sublist-mb.color ul li { text-align: center;}
+.select-cars-parts .option-sublist-mb.color ul li span{ font-size: 12px; line-height:12px;}
+
+.select-cars-parts .option-sublist-mb.amb-color ul li { text-align: center;}
+.select-cars-parts .option-sublist-mb.amb-color ul li span{ font-size: 12px; line-height:12px;}
+
+
+.nav-section .slider-nav .slick-prev {left: 5px;}
+.nav-section .slider-nav .slick-next{ right: 5px;}
+
+.mob-icons { display:block; }
+.mob-icons ul li { float:left; padding-bottom:10px; }
+/*.view-port-controls { display:block;}*/
+.view-port-controls { bottom:0; position:absolute; right: 15px; display:inline-block; }
+.view-port-controls a.control-btn { padding:8px 7px; }
+.view-port-controls__section { display:inline-block; float:left;}
+.mb-container::before { height:auto; }
+
+.nav-main-menu { display:none;}
+.nav-section .slider-nav .slick-slide a { font-size:18px; padding:15px 0px 15px;}
+.nav-section .slider-nav { padding:0 50px;}
+
+/********************************/
+.head-inner.no-bdr { padding-top:15px; }
+.main-banner.hm-land { background:none; }
+.main-banner.hm-land .main-img { background-position: 100% 76% !important; background-size: 120%;}
+.hm-cnt { position:relative; top:auto; width:100%; text-align:center; transform:none; padding:0 40px;  }
+.ftr-logo { display:none; }
+.hm-cnt h1 { font-size:24px; line-height:28px; }
+.hm-cnt p { font-size:16px; line-height: 20px; margin-bottom:20px;}
+footer.landing-foot.bdr { position:relative; bottom:auto; margin-top:40px; }
+.landing-foot.bdr .foot-top { padding:15px 0; }
+.landing-foot.bdr .foot-top p { line-height:22px;}
+.eq-logo.mb-eq-logo { display:block;}
+.head-inner.no-bdr { padding-top:20px;}
+.head-inner.no-bdr:after { display:none;}
+.mb-container.hm-img:after { display:none;}
+.main-banner.hm-land::after { position: absolute; display: block; content: ""; left: 0; bottom: 0; height: 40px; width: 100%;
+ background: linear-gradient(to top,#000 10%,rgb(0, 0, 0) 10%,rgba(10,10,10,0)); }
+
+
+/********************inner pages css ***********************/
+.head-inner { border-bottom: 1px solid rgba(255,255,255,0.2); }
+.row { padding:0 15px;}
+.top-cont-lft.top-cont-lft1.charge-op h2, .top-cont-lft.m-t-20 h2, .top-cont-lft.top-cont-lft2.charge-op h3, .top-cont.top-cont-sustain.sus-mob h2, .top-cont-lft.st-band h2, .top-cont-lft.des-ph h2, .top-cont-lft.top-cont-lft1.sus-mode h2, .top-cont-lft.int-recup h2 { margin-bottom:12px; }
+.eques-content-sec { flex: 4.4; padding:0px 15px 0; order:3;  }
+.section-body { padding: 0 15px; }
+.section-body.inn-section { flex:1.1; }
+.full-content.stats-cont { bottom:5px; }
+.nav-section.inner-nav .slider-nav .slick-slide.slick-current a {color: #00adef;}
+
+.eques-content-sec { margin-bottom: 65px;}
+.content-area.eq-stats .top-cont-lft { width:100%;}
+.content-area.eq-stats .top-cont-lft p br { display:none;}
+.full-content ul.stats li { width:100%; margin-right:40px; margin-bottom:15px;}
+.full-content ul.stats li h1 { font-size:20px; height:auto; line-height:28px; }
+.full-content ul.stats li:nth-child(3n) { width:100%;}
+.full-content ul.stats li h4 { line-height:20px; }
+.full-content ul.stats li:last-child { padding-right:0; width:100%; margin-right:0; }
+.content-area.eq-stats h2 { line-height:24px; font-size:24px; }
+.main-banner.eqc-banner .main-img, .main-banner.content-banner .main-img { background-position: 90% 50%; /*background-position: right -4vw bottom calc(40vh - 46vw + 10vw),right -51.5vw bottom calc(50vh - 30vw + -67.28125vw); background-size: 130vw,240vw;*/}
+.main-banner.eqc-banner, .main-banner.content-banner { flex:5; }
+.main-banner.content-banner .main-img { background-size:cover; }
+
+/*.main-img img.desk-ban { display:none;}
+.main-img img.mob-inn { display:block;}*/
+.main-banner.eqc-banner .main-img.desk-ban { display:none; }
+.main-banner.eqc-banner .main-img.mob-ban { display:block; }
+/*.eques-content-sec { display:none;}*/
+.eques-content .top-cont-lft { width:100%; position:relative; padding-right:0;}
+.full-content.stats-cont { position:relative; }
+.car-parts-mb { padding-top:0; }
+.content-area.eq-stats h2 { margin-top:0; }
+.select-cars-parts .option-sublist-mb ul.list-menu li { width:auto; margin-right:10px; margin-bottom:12px; padding-right:10px; border-right:1px solid rgba(255,255,255,0.5); line-height:12px; float:left;}
+.select-cars-parts .option-sublist-mb ul.list-menu li:last-child { margin-right:0; padding-right:0; border:none; }
+.mob-hght { height:25px;}
+.full-content ul.stats li:last-child { text-align:left; }
+.full-content ul.stats li:last-child p { margin-bottom:0;}
+.content-area.eq-stats p { margin-bottom:20px;}
+.full-content ul.stats li:last-child { margin-bottom:0;}
+.section-body.inn-section .slider-section .slider-for { height:auto; }
+/*.eques-content-sec .mCSB_container{ height:100%;}*/
+/*.eques-content-sec .eques-content { height:100%;}*/
+
+.main-img.mob-ban { display:block;} 
+.top-cont.top-cont-sustain.sus-mob h2 { margin-top:0;}
+.content-area h2 { font-size:22px; line-height:24px; }
+.content-area h3 { font-size:17px; line-height: 20px; }
+.top-cont.top-cont-sustain.sus-mob p { line-height:20px; margin-bottom:20px;}
+.top-cont.top-cont-sustain.sus-mob .top-cont-rgt, .top-cont-rgt.brd-img { display:none; }
+.eques-content .top-cont-lft.st-band .full-content ul.cnt-list li { margin-bottom:12px; }
+.top-cont-lft.top-cont-lft1.sus-mode { padding-left:0; }
+.top-cont-rgt.top-cont-rgt1.sus-mod { display:none; }
+
+.top-cont-lft.m-t-20 { margin-top:0;}
+.top-cont-rgt iframe { height:340px;}
+.top-cont-rgt.video-pad { width:100%; margin:20px 0 0 0; }
+.top-cont-rgt.top-cont-rgt2 { width:100%; }
+.top-cont-lft.top-cont-lft2 {  padding-left:0; padding-top:20px; }
+.top-cont-lft.top-cont-lft1.charge-op { padding-left:0;}
+
+.option-sublist-mb { margin-bottom:5px; }
+
+.eques-content-sec .mCustomScrollBox { z-index:9999; }
+#page.open::after { z-index:999; }
+.socialIcons li:hover a { padding-right:35px; }
+/*.view-port-controls a.control-btn img { height:14px;}*/
+#share-pop .pop-content { width:100% !important; max-width:100%;}
+
+.nav-section .slider-nav { display: none;}
+.nav-section .slider-nav-mob { display: block;}
+.nav-section .slider-nav-mob .slick-slide a { font-size:18px; padding:15px 0px 15px;}
+.nav-section .slider-nav-mob { padding:0 50px;}
+#canvas canvas { height: 100% !important;}
+#loader-overlay { background: #000;}
+#video-loader {position: relative;}
+
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li { width: 100%;border-right:none; margin-bottom:15px; margin-right: 0px; padding-right: 0px; }
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li a{ text-transform: uppercase; color: rgba(255,255,255, 1); font-size: 15px;}
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li a:hover{color: rgba(255,255,255, 0.7); }
+body.landing-page .slide-foot {height: 35px;}
+body.landing-page .view-port-controls { display: none;}
+
+/* landing page 12-4-20220*/
+.fancybox-wrap, .fancybox-skin { width: 96% !important; left: 0px !important; right: 0px; margin:  auto;}
+.fancybox-inner{width: 100% !important; height: auto !important;}
+#dash-pop.popup, #dash-pop1.popup {border-radius:35px;padding: 30px 30px;}
+#dash-pop.popup, #dash-pop1 .pop-content { width: 100%;height: auto;}
+#share-pop .pop-content {width:100% !important; height: auto; max-width:100%;}
+#dash-pop .pop-content{ width: 100%; height: auto;}
+
+
+body.landing-page .head-space {flex: 0 0 55px;}
+#canvas {height: 100%;top: 0px;}
+
+/* home landing */
+.home-page .nav-section .slider-nav { padding: 0px 150px 0px 0px; display: block;}
+.home-page .head-space {flex: 0 0 0vw;}
+.home-page .main-banner { flex: 0.5;}
+
+.fancybox-overlay.share-overlay { background: rgba(255,255,255,0.4);}
+
+.social-div { bottom:45px; left: 45px;}
+
+.containerLoader{ width:40%; margin-top:25%;}
+
+#ambient-pop.popup {border-radius:35px;padding: 30px 30px;}
+#ambient-pop .pop-content { width: 100%;height: auto;}
+
+.video-list ul li iframe { height: 200px;}
+.foot-distxt { width: 100%; padding: 0px 20px; top:-22px; text-align: center;}
+
+.foot-lft { width: 100%;}
+.foot-rgt { width: 100%; margin-bottom: 5px;}
+
+}
+
+/* Smaller than standard 768 (devices and browsers) */
+@media screen and (max-width:767px) {
+img {max-width:100%; }
+.row { width:100%; padding:0px 12px; }
+body { overflow:hidden;}
+/* #page { display:none;}
+.mob-page { display:block;} */
+
+.head-space {flex: 0 0 0vw;}
+.main-banner{ position: relative; flex: 1;pointer-events: all; display: flex;flex-direction: column;height: auto;min-height: 0; overflow: hidden; }
+.main-img { position: absolute; top:0px; left: 0px; /*height: 79.25vw !important;*/}
+/* .main-img img { opacity: 1; display: block;} */
+
+.nav-section .slider-nav{ width: 100%;}
+.parts-select {padding: 20px 15px 0; display: none;}
+.section-body { padding: 0px 15px;}
+.slider-section{ margin-bottom: 10px;}
+footer .row {padding: 0px 15px;}
+.foot-top p {font-size:10px;line-height: 16px;}
+.foot-top .foot-distxt p { font-size: 11px; line-height: 16px;}
+.slide-foot{ height: 15px;}
+
+.select-cars-parts {padding: 0px 0px 0;}
+.exterior-parts{ display: none;}
+.slider-for {height: 100%;position: relative !important;bottom: auto;}
+.car-parts-mb{ display: block;}
+
+/**/
+.logo img { width:35px; }
+.eq-logo { width:92px; padding-top: 3px;}
+.top-rgt { margin:8px 0 0; } 
+.top-rgt ul li { margin-right:12px; }
+.top-rgt ul li .tooltip { display:none; }
+.top-rgt ul li a span { width:19px;}
+.main-banner { background-size: 10%; }
+.main-img { background-size: 112vw,190vw; transform: translate3d(0px, 0px, 0px) scale(1); background-position: center !important; /*background-position: right -25vw bottom calc(50vh - 10vw + 1vw),right -51.5vw bottom calc(50vh - 30vw + -67.28125vw) !important;*/}
+
+.side-menu{ display: none;}
+.select-cars-parts .option-sublist-mb ul li { width: auto;margin-right:10px;}
+.select-cars-parts .option-sublist-mb.color ul li { text-align: center;}
+.select-cars-parts .option-sublist-mb.color ul li span{ font-size: 12px; line-height:12px;}
+
+.select-cars-parts .option-sublist-mb.amb-color ul li { text-align: center;}
+.select-cars-parts .option-sublist-mb.amb-color ul li span{ font-size: 12px; line-height:12px;}
+
+
+.nav-section .slider-nav .slick-prev {left: 5px;}
+.nav-section .slider-nav .slick-next{ right: 5px;}
+
+.mob-icons { display:block; }
+.mob-icons ul li { float:left; padding-bottom:10px; }
+/*.view-port-controls { display:block;}*/
+.view-port-controls { bottom:0; position:absolute; right: 15px; display:inline-block; }
+.view-port-controls a.control-btn { padding:8px 7px;  }
+.view-port-controls__section { display:inline-block; float:left;}
+.mb-container::before { height:auto; }
+
+.nav-main-menu { display:none;}
+.nav-section .slider-nav .slick-slide a { font-size:18px; padding:15px 0px 15px;}
+.nav-section .slider-nav { padding:0 50px;}
+
+/********************************/
+.head-inner.no-bdr { padding-top:15px; }
+.main-banner.hm-land { background:none; }
+.main-banner.hm-land .main-img { background-position: 100% 76% !important; background-size: 120%;}
+.hm-cnt { position:relative; top:auto; width:100%; text-align:center; transform:none; padding:0 40px;  }
+.ftr-logo { display:none; }
+.hm-cnt h1 { font-size:24px; line-height:28px; }
+.hm-cnt p { font-size:16px; line-height: 20px; margin-bottom:20px;}
+footer.landing-foot.bdr { position:relative; bottom:auto; margin-top:40px; }
+.landing-foot.bdr .foot-top { padding:15px 0; }
+.landing-foot.bdr .foot-top p { line-height:22px;}
+.eq-logo.mb-eq-logo { display:block;}
+.head-inner.no-bdr { padding-top:20px;}
+.head-inner.no-bdr:after { display:none;}
+.mb-container.hm-img:after { display:none;}
+.main-banner.hm-land::after { position: absolute; display: block; content: ""; left: 0; bottom: 0; height: 40px; width: 100%;
+ background: linear-gradient(to top,#000 10%,rgb(0, 0, 0) 10%,rgba(10,10,10,0)); }
+
+ /* popup */
+.fancybox-wrap, .fancybox-skin { width: 96% !important; left: 0px !important; right: 0px; margin:  auto;}
+.fancybox-inner{width: 100% !important; height: auto !important;}
+.pop-content{ height: 400px;}
+.pop-content h2 {font-size: 24px;line-height:30px;}
+
+.fancybox-inner{ height: auto;}
+#dash-pop .pop-content { height: auto; width: 100%;}
+#dash-pop .pop-content .driver-display{ display: none;}
+/* #dash-pop .pop-content .driver-mb-slide{ display: block;} */
+
+/********************inner pages css ***********************/
+.head-inner { border-bottom: 1px solid rgba(255,255,255,0.2); }
+.row { padding:0 15px;}
+.top-cont-lft.top-cont-lft1.charge-op h2, .top-cont-lft.m-t-20 h2, .top-cont-lft.top-cont-lft2.charge-op h3, .top-cont.top-cont-sustain.sus-mob h2, .top-cont-lft.st-band h2, .top-cont-lft.des-ph h2, .top-cont-lft.top-cont-lft1.sus-mode h2, .top-cont-lft.int-recup h2 { margin-bottom:12px; }
+.eques-content-sec { flex: 4.4; padding:0px 15px 0; order:3;  }
+.section-body { padding: 0 15px; }
+.section-body.inn-section { flex:1.1; }
+.full-content.stats-cont { bottom:5px; }
+.nav-section.inner-nav .slider-nav .slick-slide.slick-current a {color: #00adef;}
+
+.eques-content-sec { margin-bottom: 65px;}
+.content-area.eq-stats .top-cont-lft { width:100%;}
+.content-area.eq-stats .top-cont-lft p br { display:none;}
+.full-content ul.stats li { width:100%; margin-right:40px; margin-bottom:15px;}
+.full-content ul.stats li h1 { font-size:20px; height:auto; line-height:28px; }
+.full-content ul.stats li:nth-child(3n) { width:100%;}
+.full-content ul.stats li h4 { line-height:20px; }
+.full-content ul.stats li:last-child { padding-right:0; width:100%; margin-right:0; }
+.content-area.eq-stats h2 { line-height:24px; font-size:24px; }
+.main-banner.eqc-banner .main-img, .main-banner.content-banner .main-img { background-position: 90% 50%; /*background-position: right -4vw bottom calc(40vh - 46vw + 10vw),right -51.5vw bottom calc(50vh - 30vw + -67.28125vw); background-size: 130vw,240vw;*/}
+.main-banner.eqc-banner, .main-banner.content-banner { flex:5; }
+.main-banner.content-banner .main-img { background-size:cover; }
+
+/*.main-img img.desk-ban { display:none;}
+.main-img img.mob-inn { display:block;}*/
+.main-banner.eqc-banner .main-img.desk-ban { display:none; }
+.main-banner.eqc-banner .main-img.mob-ban { display:block; }
+/*.eques-content-sec { display:none;}*/
+.eques-content .top-cont-lft { width:100%; position:relative; padding-right:0;}
+.full-content.stats-cont { position:relative; }
+.car-parts-mb { padding-top:0; }
+.content-area.eq-stats h2 { margin-top:0; }
+.select-cars-parts .option-sublist-mb ul.list-menu li { width:auto; margin-right:10px; margin-bottom:12px; padding-right:10px; border-right:1px solid rgba(255,255,255,0.5); line-height:12px; float:left;}
+.select-cars-parts .option-sublist-mb ul.list-menu li:last-child { margin-right:0; padding-right:0; border:none; }
+.mob-hght { height:25px;}
+.full-content ul.stats li:last-child { text-align:left; }
+.full-content ul.stats li:last-child p { margin-bottom:0;}
+.content-area.eq-stats p { margin-bottom:20px;}
+.full-content ul.stats li:last-child { margin-bottom:0;}
+.section-body.inn-section .slider-section .slider-for { height:auto; }
+/*.eques-content-sec .mCSB_container{ height:100%;}*/
+/*.eques-content-sec .eques-content { height:100%;}*/
+
+.main-img.mob-ban { display:block;} 
+.top-cont.top-cont-sustain.sus-mob h2 { margin-top:0;}
+.content-area h2 { font-size:22px; line-height:24px; }
+.content-area h3 { font-size:17px; line-height: 20px; }
+.top-cont.top-cont-sustain.sus-mob p { line-height:20px; margin-bottom:20px;}
+.top-cont.top-cont-sustain.sus-mob .top-cont-rgt, .top-cont-rgt.brd-img { display:none; }
+.eques-content .top-cont-lft.st-band .full-content ul.cnt-list li { margin-bottom:12px; }
+.top-cont-lft.top-cont-lft1.sus-mode { padding-left:0; }
+.top-cont-rgt.top-cont-rgt1.sus-mod { display:none; }
+
+.top-cont-lft.m-t-20 { margin-top:0;}
+.top-cont-rgt iframe { height:340px;}
+.top-cont-rgt.video-pad { width:100%; margin:20px 0 0 0; }
+.top-cont-rgt.top-cont-rgt2 { width:100%; }
+.top-cont-lft.top-cont-lft2 {  padding-left:0; padding-top:20px; }
+.top-cont-lft.top-cont-lft1.charge-op { padding-left:0;}
+
+.option-sublist-mb { margin-bottom:5px; }
+
+.eques-content-sec .mCustomScrollBox { z-index:9999; }
+#page.open::after { z-index:999; }
+.socialIcons li:hover a { padding-right:35px; }
+/*.view-port-controls a.control-btn img { height:14px;}*/
+#share-pop .pop-content { width:100% !important; max-width:100%;}
+
+
+/* landing page 12-4-2020 */
+#dash-pop.popup, #dash-pop1.popup {border-radius: 30px;padding: 25px 15px;}
+#dash-pop1 .pop-content { width: 100%;height: auto;}
+#back-btn a {padding: 0px 15px; line-height: 22px; margin-bottom: 0px;background: #256a7a url(../images/back-icon.png) no-repeat center center; background-size: 50%;}
+#back-btn a:hover{background: #134254 url(../images/back-icon.png) no-repeat center center; background-size: 50%; }
+#back-btn {top: auto;right: 0px;bottom:0px;}
+#back-btn2 a {padding: 0px 15px; line-height: 22px; margin-bottom: 0px;background: #256a7a url(../images/back-icon.png) no-repeat center center; background-size: 50%;}
+#back-btn2 a:hover {background: #134254 url(../images/back-icon.png) no-repeat center center; background-size: 50%;}
+#back-btn2 {top: auto;right: 0px; bottom:0px;}
+
+.slick-slider.pop-nav .slick-slide span.icon-dis { width: 70px;height: 70px;}
+.pop-nav.slider .slick-slide a h3.txt {font-size: 15px;line-height: 18px;height: 45px;}
+.pop-nav.slider .slick-slide a h3.txt span {font-size: 16px;}
+.pop-nav.slider .slick-slide a .icon-dis-option ul li {width: 40px;}
+.pop-nav.slider .slick-slide a .icon-dis-option ul li img {width: 28px;}
+
+.pop-nav.slider .slick-next {right: 0px;}
+.pop-nav.slider .slick-prev {left: 0px;}
+
+body.landing-page .slide-foot {height: 35px;}
+body.landing-page .view-port-controls { display: none;}
+
+
+/* landing page */
+/* .pop-nav{ opacity:0; height: 0px; visibility: hidden;}
+.pop-nav.pop-nav-mob { opacity:1; height: auto; visibility: visible;}
+.pop-nav.pop-nav-mob.hd{ opacity:0; height: 0px; visibility: hidden;} */
+
+body.landing-page .section-body{ background:#000; padding-top: 10px;}
+body.landing-page .nav-section{ background:#000;}
+.landing-page .nav-section .slider-nav .slick-slide a {color: #fff;}
+.landing-page .nav-section .slider-nav .slick-slide.slick-current a {color: #00adef;}
+
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li { width: 100%;border-right:none; margin-bottom:15px; margin-right: 0px; padding-right: 0px; }
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li a{ text-transform: uppercase; color: rgba(255,255,255, 1); font-size: 15px;}
+body.landing-page .select-cars-parts .option-sublist-mb ul.list-menu li a:hover{color: rgba(255,255,255, 0.7); }
+
+
+body.landing-page .head-space {flex: 0 0 55px;}
+#canvas {height:100%; top: 0px;}
+#canvas canvas {height:100% !important; }
+body.landing-page .mb-container::after { display:none; } 
+
+/* home landing */
+.home-page .nav-section .slider-nav { padding: 0px 50px;display: block;}
+.home-page .nav-section .slider-nav .slick-slide.slick-current a{color: #00adef;}
+.home-page .main-banner{ flex: 0.5;}
+
+body.landing-page .nav-section .slider-nav { display: none;}
+body.landing-page .nav-section .slider-nav-mob { display: block;}
+body.landing-page .nav-section .slider-nav-mob .slick-slide a { font-size:18px; padding:15px 0px 15px;}
+body.landing-page .nav-section .slider-nav-mob { padding:0 50px;}
+
+
+#loader-overlay { background: #000;}
+#video-loader {position: relative;}
+
+
+.nav-section .slider-nav { display: none;}
+.nav-section .slider-nav-mob { display: block;}
+.nav-section .slider-nav-mob .slick-slide a { font-size:18px; padding:15px 0px 15px;}
+.nav-section .slider-nav-mob { padding:0 50px;}
+
+.fancybox-overlay.share-overlay { background: rgba(255,255,255,0.4);}
+
+.social-div { bottom:45px; left: 45px;}
+
+.containerLoader{ width:70%;margin-top:45%;}
+
+#ambient-pop.popup {border-radius: 30px;padding: 25px 15px;}
+#ambient-pop .pop-content { width: 100%;height: auto;}
+
+.video-list { padding-right: 10px;}
+.video-list ul li{ width: 48%; margin-right: 4%;}
+.video-list ul li:nth-child(3n-3){ margin-right: 4%;}
+.video-list ul li:nth-child(2n-2){ margin-right: 0px;}
+.video-list ul li iframe { height: 100%;}
+
+.foot-distxt { width: 100%; padding: 0px 0px; top:-22px; text-align: center;}
+
+.foot-lft { width: 100%;}
+.foot-rgt { width: 100%; margin-bottom: 5px;}
+}
+
+/* Mobile Landscape Size (devices and browsers) */
+@media screen and (max-width:639px) {
+
+.main-banner.hm-land .main-img { background-position: 100% 76% !important;background-size: 130%;}
+
+
+/********************inner pages css ***********************/
+.main-banner.eqc-banner { flex:4; }
+.full-content ul.stats li  { width:100%; margin-right:0;}
+.full-content ul.stats li:nth-child(3n) { width:100%;}
+.full-content ul.stats li:last-child { width:100%;}
+.section-body.inn-section { flex:1.35; }
+.top-cont-rgt iframe { height:250px;}
+
+/* landing page */
+#dash-pop.popup, #dash-pop1.popup {border-radius:15px;padding:20px 10px;}
+#share-pop .pop-content {width:100%; height: 400px; max-width:100%;}
+#share-pop .pop-content .share-desc {padding: 0px 15px;}
+.nav-in.slider a { /*width: 100px;*/padding: 0% 5%;font-size: 10px;}
+.nav-in1.slider a { /*width: 120px;*/padding: 0% 5%;font-size: 9px;}
+
+.slick-slider.pop-nav .slick-slide span.icon-dis { width: 70px;height: 70px;}
+.pop-nav.slider .slick-slide a h3.txt {font-size: 15px;line-height: 15px;height:38px;}
+.pop-nav.slider .slick-slide a h3.txt span {font-size: 16px;}
+
+.st-options li a { padding: 4px 5px;}
+.st-options li a img { width: 60px;}
+.st-options li a span {font-size: 16px;}
+
+.driver-display.driver-media-list ul li a{padding: 0% 5%;font-size: 10px;}
+
+.sh-form { padding:15px; }
+.sh-form ul li { width:100%; margin-right:0; margin-bottom:10px;}
+.sh-form ul li:last-child { margin-bottom:0;}
+
+.sh-form ul li .check-options ul li{ width: 50%;} 
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media screen and (max-width:479px) {
+
+
+.head-space {flex: 0 0 0vw;}
+/*.eq-logo { width:62px; padding-top: 3px; position:relative; margin-left:20px; float: left;}*/
+.main-img { background-size: 160vw,190vw;  }
+
+
+/************************/
+.hm-cnt { margin-top:20px; padding:0 20px; }
+.policy-list { width:100%; text-align:center; }
+.policy-list ul li { float:none; display:inline-block;}
+.pow-div { width:100%; text-align:center;} 
+.main-banner.hm-land .main-img { background-position:100% 70% !important; background-size: 135%;}
+
+.top-cont-rgt iframe { height:190px;}
+.select-cars-parts .option-sublist-mb ul.list-menu li { margin-right:7px; padding-right:7px;}
+
+/* landing page 12-4-2020*/
+.slick-slider.pop-nav{ top:55%;}
+.slick-slider.pop-nav .slick-slide span.icon-dis { width: 40px;height: 40px; background-size: 50%;}
+.slick-slider.pop-nav .slick-slide.slick-current span {background-size: 50%; }
+.pop-nav.slider .slick-slide a h3.txt {font-size: 11px;line-height:13px;height: 32px;}
+.pop-nav.slider .slick-slide a h3.txt span {font-size: 14px;}
+.pop-nav.slider .slick-slide a .icon-dis-option ul li {width: 25px;}
+.pop-nav.slider .slick-slide a .icon-dis-option ul li img {width: 20px;}
+
+.nav-in.slider a {font-size: 8px;}
+.nav-in1.slider a {font-size: 8px;}
+
+.st-options li a { padding: 4px 2px;}
+.st-options li a img { width: 30px;}
+.st-options li a span {font-size: 12px; line-height: 13px;}
+
+.md-options li a { padding: 4px 5px;}
+.md-options li a img{ width: 45px;}
+.md-options li a span { font-size: 11px;}
+
+.sh-form ul li .check-options ul li{ width:100%;} 
+
+.video-list ul li{ width: 100%; margin-right:0px;}
+.video-list ul li:nth-child(3n-3){ margin-right: 0px;}
+.video-list ul li:nth-child(2n-2){ margin-right: 0px;}
+.video-list ul li iframe { height: 100%;}
+
+
+}
+
+@media screen and (max-width:359px) {
+
+}
+
+
+
+
+
+
